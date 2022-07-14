@@ -8,7 +8,6 @@ func main() {
 	fmt.Println("Git Demo")
 
 	fmt.Println("Resolving git merge while rebase")
-
 	ch := make(chan string, 4)
 
 	ch <- "Veda"
