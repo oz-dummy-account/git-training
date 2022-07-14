@@ -9,11 +9,12 @@ func main() {
 
 	fmt.Println("Resolving git merge while rebase")
 
-	ch := make(chan string, 3)
+	ch := make(chan string, 4)
 
 	ch <- "Veda"
 	ch <- "Omega"
 	ch <- "Heyjay"
+	ch <- "Rashnu"
 	close(ch)
 
 	for s := range ch {
